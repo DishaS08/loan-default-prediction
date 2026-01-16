@@ -38,23 +38,29 @@ loan-default-prediction/
 
 ```bash
 streamlit run loan_predictor.py
-Output
-The application displays:
+```
 
-Loan default risk percentage
-
-Loan status as Safe or Risky based on predicted probability
 
 Use Case
 This project demonstrates the application of machine learning in credit risk analysis and supports data-driven decision-making for loan approval.
 
-markdown
-Copy code
+## Output
+Prediction: 
 
-✅ This will render **perfectly on GitHub**  
-✅ Clean, professional, resume-ready  
+- Loan default risk percentage  
+- Loan status: Safe or Risky based on predicted probability
+  
+---
+<img width="1799" height="738" alt="image" src="https://github.com/user-attachments/assets/0175199d-c0d9-444d-bf16-c1d34adb215b" />
 
-If you want, next I can give:
-- **GitHub “About” section (2 lines)**
-- **One-line resume project point**
-- **Streamlit Cloud description**
+ ---
+
+<img width="1812" height="730" alt="image" src="https://github.com/user-attachments/assets/eb4aa169-a865-4c3b-acc3-8cd68489eeb5" />
+
+---
+
+Live Application
+
+🔗 Streamlit App: https://loan-default-prediction-ufrccvvi77pa4cpyqwpc96.streamlit.app/
+
+
