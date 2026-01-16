@@ -20,15 +20,18 @@ Users provide basic loan and repayment details such as loan amount, age, billing
 - **Web Framework:** Streamlit  
 - **Model Persistence:** Joblib  
 
-## Project Structure
 loan-default-prediction/
-│── Loan_default.ipynb # Data analysis & model training
-│── loan.csv # Dataset
-│── loan_predictor.py # Streamlit app
-│── lr_model.pkl # Trained model
-│── scaler.pkl # Feature scaler
-│── requirements.txt # Dependencies
-│── README.md
+│
+├── Loan_default.ipynb     # EDA + Model training (81% accuracy)
+├── loan.csv              # Dataset (30K samples)
+│
+├── loan_predictor.py     # Streamlit app
+├── lr_model.pkl          # Trained model
+├── scaler.pkl            # Feature scaler
+│
+├── requirements.txt
+└── README.md
+
 
 
 ## Run Locally
@@ -59,6 +62,10 @@ Prediction:
 
 ---
 
+<img width="1783" height="725" alt="image" src="https://github.com/user-attachments/assets/62838526-9706-4c00-823e-6caebbf570d2" />
+
+ --- 
+ 
 Live Application
 
 🔗 Streamlit App: https://loan-default-prediction-ufrccvvi77pa4cpyqwpc96.streamlit.app/
